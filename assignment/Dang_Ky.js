@@ -8,6 +8,7 @@ import { register } from '../redux/UserAPI'
 
 const Dang_Ky = (props) => {
     const {navigation}=props;
+    const number = 0
     const useAppDispatch=()=>useDispatch();
     const useAppSelector=useSelector;
     const dispatch=useAppDispatch();
